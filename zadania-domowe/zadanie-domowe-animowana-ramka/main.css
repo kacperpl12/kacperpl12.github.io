@@ -1,0 +1,28 @@
+.conatainer {
+    width: 100%;
+    height: 100vh;
+}
+.border-box {
+    width: 40%;
+    height: 50vh;
+    margin: 0 auto;
+
+}
+.image {
+    width:100%;
+    height:100%;
+    margin-top:20px;
+    background-image:url(img/4-jezioro.jpg);
+    position: relative;
+    transition: 
+
+    
+}
+.image:hover, .image::before {
+    border: 5px solid #000;
+    position: absolute;
+    background-repeat: no-repeat;
+    width:inherit;
+    height: inherit;
+    margin: 5px;
+}

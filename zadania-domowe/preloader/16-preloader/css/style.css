@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: lightblue;
+}
+
+.loader {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: spin 3s infinite linear;
+}
+
+.square {
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    position: absolute;
+    
+}
+
+.square:last-child {
+   bottom: 0;
+    right: 0;
+    animation-name: load-two;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.square:first-child {
+   top: 0;
+    left: 0;
+    animation-name: load-one;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes load-one {
+   0%, 100% {transform:rotate(360deg);}
+    25% {transform:scale(1.4);}
+    
+}
+@keyframes load-two {
+    0%, 100% {transform:rotate(360deg);}
+    75% {transform:scale(1.4);}
+    
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform: rotate(360deg);}
+}

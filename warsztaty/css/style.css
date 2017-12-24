@@ -1,0 +1,76 @@
+body 
+{
+    margin: 0;
+}
+#menu 
+{
+    background-color: black; 
+    color: white; 
+    text-align: center; 
+}
+
+#menu > ul 
+{
+    width: 100%; 
+    margin: 0;
+    padding-right: 25px; 
+    padding-bottom: 25px;
+    padding-top:25px;
+    padding-left:25px; 
+    
+}
+
+#menu ul > li.menu-item 
+{
+    text-decoration: none; 
+    display: inline-block;
+    list-style: none; 
+}
+
+#menu ul > li.menu-item > a
+{
+    text-decoration: none; 
+    margin-right: 60px;  
+    color: white; 
+}
+#header 
+{
+    position: relative;
+    text-align: center; 
+}
+#header > h1
+{
+    position: absolute; 
+    text-align: center;
+    color: white;
+    font-size: 38px; 
+    top: 50%; 
+    right: 0;
+    left: 0;
+    text-transform: uppercase; 
+    font-weight: bold; 
+}
+#header > img 
+{
+    width: 100%
+}
+.about-content, h2 
+{
+   text-align: center;
+   padding-bottom: 15px; 
+   font-weight: bold; 
+}
+
+#contact, #contact-header, #contact-content
+{
+    padding-bottom: 10px;
+    padding-top: 5px;
+    background-color: black;
+    color: white;
+    text-align: center; 
+    font-weight: bold; 
+}
+#contact-content > a 
+{
+    color:white; 
+}

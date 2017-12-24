@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>formularz-html5</title>
+    <meta name="description" content="zawartość formularza"/>
+    <meta name="author" content="Kacper Szczęsny"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
+    <link rel="stylesheet" href="formularze.css"/>
+</head>
+<body>
+    
+    <form action="https://formspree.io/kacper35456@wp.pl" method="post">
+       <label for="imie">Imię</label><br/>
+       <input type="text" name="imie" id="imie"><br/>
+       <label for="nazwisko">Nazwisko</label><br/>
+       <input type="text" name="nazwisko" id="nazwisko"><br/>
+       <label for="mail">Mail</label><br/>
+       <input type="text" name="mail" id="mail"><br/>
+       <label for="telefon">Telefon</label><br/>
+       <input type="text" name="telefon" id="telefon"><br/>
+       <label for="miasto">Miasto</label><br/>
+       <select name="miasto">
+           <option>Warszawa</option>
+           <option>Kraków</option>
+           <option>Gdańsk</option>
+       </select><br/>
+       <label for="plec">Płeć</label><br/>
+       <input type="radio" name="plec" value="kobieta"/> kobieta<br>
+       <input type="radio" name="plec" value="mężczyzna"/> mężczyzna<br/><br/>
+       <label for="zgoda na przetwarzanie danych osobowych">Zgoda na przetwarzanie danych osobowych</label><br/>
+       <input type="checkbox" name="zgoda na przetwarzanie danych osobowych" value="akceptuję"/> Akceptuję<br/><br/>
+       <label for="wiadomość">Zostaw wiadomość</label><br/>
+       <textarea name="wiadomość" cols="50" rows="10">wiadomość</textarea><br/><br/>
+       <label for="wyslij"></label><br/>
+       <input type="submit" value="send">
+    </form>
+    
+</body>
+</html>

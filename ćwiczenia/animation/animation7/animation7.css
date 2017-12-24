@@ -1,0 +1,20 @@
+q, blockquote {
+   quotes: "\201C" "\201D";
+}
+q:lang(en) 
+{
+    quotes: "*" "*";
+}
+blockquote:lang(en)
+{
+    quotes: "*" "*";
+}
+
+q::before, blockquote::before  
+{
+    content: open-quote;
+}
+q::after, blockquote::after {
+    content: close-quote;
+}
+

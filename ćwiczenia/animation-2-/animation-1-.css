@@ -1,0 +1,12 @@
+p
+{
+   font-size: 45px; 
+}
+i{
+    color: red;
+    animation: bicie-serca 4s linear infinite;
+    
+}
+@keyframes bicie-serca {
+    20% {transform: scale(1.3);}
+}

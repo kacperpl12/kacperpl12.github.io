@@ -1,0 +1,35 @@
+body 
+{
+  margin: 0;
+  background-color: white;
+}
+
+
+#kwadrat-czerwony 
+{
+  position: relative; 
+  width: 100%;
+  background-color: red;
+  top: 0;
+}
+#kwadrat-czerwony > #kolo-rozowe 
+{
+  position:absolute; 
+  background-color: beige; 
+  left: 0;
+  border-radius: 50%;
+  border: 2px solid #000; 
+    
+}
+#kwadrat-niebieski 
+{
+  
+} 
+#kwadrat-czerwony > #kolo-szare 
+{
+  
+}
+#kwadrat-zolty 
+{
+  
+}

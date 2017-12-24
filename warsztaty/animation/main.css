@@ -1,0 +1,25 @@
+img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    transition: all 0.5;
+    transform-origin: 100%; 40%;
+}
+/*Obrót*/
+.rotate img {
+    transform: rotate(20deg);
+}
+/*Przesunięcie*/
+. translate img {
+    transform: translate(200px, 100px;)
+}
+/*Skalowanie */
+.scale img: hover {
+    transform: scale(1.5);
+}
+/*animation*/ 
+.animaation img {
+    animation-name: resize;
+    animation-duration: 3px;
+    animation-iteration-count: infinite;
+}

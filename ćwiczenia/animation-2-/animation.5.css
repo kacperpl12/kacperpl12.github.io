@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.container  {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    
+}
+.column-1-4{
+    height: 100vh;
+    width: 25%;
+    transition: all 0.5s linear;
+    float: left;
+}
+.background {
+    height: 100%;
+    width: 125%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.column-1-4:hover {
+    width: 40%;
+}
+.container:hover .column-1-4:not(:hover) {
+    width: 20%;
+}
+.column-1-4:last-child {
+    position: absolute;
+    right:0;
+}
+#background-1 {
+    background-image:url(img/070-bartazeklipiec2-68542.jpg);
+}
+#background-2 {
+    background-image: url(img/160_732388c2.jpg);
+}
+#background-3 {
+    background-image: url(img/comment_RTWtWKQCGT4O60rIwz8qVP4vkmaBgKoV.jpg);
+}
+#background-4 {
+    background-image: url(img/zdjecie.jpg);
+}

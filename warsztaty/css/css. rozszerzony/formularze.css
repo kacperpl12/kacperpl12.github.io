@@ -1,0 +1,44 @@
+* 
+{
+   margin: 0;
+   padding: 0;
+    
+}
+form
+{
+    background-color:  #213b50; 
+    color: white; 
+    width: 400px;
+    padding: 15px; 
+ 
+}
+input, textarea, select 
+{
+   background-color:  #2b4a64; 
+   border: 0px; 
+   color: white; 
+}
+input:focus, textarea:focus {
+    background-color: #4e708c; 
+    border: 1px solid white; 
+}
+
+input[type="submit"] 
+{
+    background-color: green; 
+    color: white; 
+    padding: 2px;
+    font-size: 15px; 
+}
+select 
+{
+    width: 169px;  
+}
+select:hover 
+{
+     background-color: #4e708c; 
+}
+input, submit 
+{
+    text-transform: uppercase; 
+}

@@ -1,0 +1,40 @@
+.container {
+    width: 950px;
+    height: 950px;
+    float
+}
+.yellow-square {
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    position: relative;
+    margin: 10px;
+    float: left;
+        
+}
+.pink-square {
+    background-color: pink;
+    vertical-align: center;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    transform: translateX(50%);
+    transform: translateY(30%);
+    left: 50px;
+   
+
+}
+/*pierwszy sposób*/
+.yellow-square:nth-child(1) .pink-square {
+    top: 50%;
+    transform: translateY(-50%);
+    transform: translateX(50%);
+    left: 0;
+    right: 0;
+    margin: 0. auto;
+}
+/*drugi sposób*/
+.yellow-square:nth-child(2) .pink square {
+    transform: translate(50%, 50%;)
+}

@@ -1,0 +1,9 @@
+ul {
+   list-style: none;
+}
+li::before {
+    content: "\f2da";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-right: 5px;
+}

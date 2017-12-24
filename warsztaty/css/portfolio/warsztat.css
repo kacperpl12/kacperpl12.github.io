@@ -1,0 +1,124 @@
+* 
+{
+    box-sizing: border-box; 
+    margin:0;
+    padding:0;
+}
+body 
+{
+    font-family: 'Lato', sans-serif;
+}
+
+.background 
+{
+    background-image: url(img/header-background.jpg); 
+    height: 550px; 
+    
+}
+.navigation
+{
+    padding-top: 2%;
+    padding-right: 30px; 
+    font-weight: 100; 
+    font-size: 22px;   
+}
+
+nav ul{
+    text-align:right;
+    width:100%;
+    background-color:white;
+    position:fixed;
+    top:0;
+}
+
+nav li{
+    display:inline-block;
+    color: black; 
+    padding: 1%;
+}
+
+h1 
+{
+    padding-top: 14%;
+    font-family: 'Roboto', sans-serif; 
+    text-align: center; 
+    font-size: 85px; 
+    color: white; 
+    font-weight: 100;
+}
+h1::after 
+{
+    content: "Nowak";
+    color: #1ac056; 
+    font-weight: 400;
+    
+}
+h4
+{
+    text-align: center; 
+    color: white; 
+    margin-bottom: 15px; 
+    font-weight: 100; 
+}
+.background2 
+{
+    padding:2%;
+    font-size:0;
+}
+.background2 h2 
+{
+    font-family: 'Roboto', sans-serif; 
+    text-align: center; 
+    padding-bottom: 5%;
+    font-size: 20px;
+}
+.background2 h2::after 
+{
+    content: "Mnie";
+    font-family: 'Roboto', sans-serif; 
+    text-align: center;
+    font-weight: 400; 
+    color: green; 
+}
+section 
+{
+    background-color: aliceblue; 
+}
+#container-image 
+{
+    background-color: white;
+    border-radius:8%;
+    padding: 2%;
+    display:inline-block;
+    
+}
+#container-image > img
+{
+    height: 220px;
+    width: 200px;
+}
+
+.image, .text{
+    display:inline-block;
+    width:50%;
+    font-size:16px;
+    vertical-align:top;
+}
+
+.image{
+    text-align:center;
+}
+
+section .text
+{
+    text-align: right;
+}
+.section3 > h4 
+{
+    font-weight: 200;
+}
+.section3 > h4::after {
+    
+    content:"umiejętności";
+    color: green;
+}

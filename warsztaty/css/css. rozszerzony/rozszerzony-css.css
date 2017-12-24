@@ -1,0 +1,41 @@
+#p1
+{
+    color: orange; 
+    text-decoration: none; 
+}
+#p2:visited 
+{
+    color: green; 
+    text-decoration: none; 
+}
+#p1:target::before 
+{
+    content: "przed ";
+    color: aliceblue; 
+    
+}
+#paragraf1:visited 
+{
+    color: green; 
+    text-decoration: none; 
+    
+}
+#raws
+{
+    width: 300px;
+    height: 300px; 
+    
+}
+#raws div:nth-child(even) 
+{
+    background-color: pink; 
+}
+#raws div:nth-child(odd) 
+{
+    background-color: blue;
+}
+
+#raws div:nth-child(5n+4) 
+{
+    background-color: green
+}
