@@ -1,28 +1,66 @@
-.conatainer {
-    width: 100%;
-    height: 100vh;
-}
-.border-box {
-    width: 40%;
-    height: 50vh;
-    margin: 0 auto;
-
-}
-.image {
-    width:100%;
-    height:100%;
-    margin-top:20px;
-    background-image:url(img/4-jezioro.jpg);
-    position: relative;
-    transition: 
-
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin-top: 20px;
     
 }
-.image:hover, .image::before {
-    border: 5px solid #000;
-    position: absolute;
-    background-repeat: no-repeat;
-    width:inherit;
-    height: inherit;
-    margin: 5px;
+
+.container {
+    width: 650px;
+    height: 350px;
+    margin: 0 auto;
+    position: relative;
+    transition: all 2s linear;
+    
 }
+img {
+    
+    display: block;
+    
+}
+
+.container:hover::after {
+    content: "";
+    display: block;
+    border: 2px solid black;
+    position: absolute;
+    top: 0;
+    width: 105%;
+    border-bottom: none;
+    height: 55%;
+    top: -35px;
+    left: -15px;
+
+}
+
+.container:hover::before {
+    content: "";
+    display: block;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    width: 105%;
+    height: 55%;
+    bottom: -15px;
+    left: -15px;
+    border-top: none;
+}
+.container:hover .background-class {
+    background-color: rgba(0,0,0,0.8);
+    width: 681px;
+    height: 50px;
+    position: absolute;
+    top: 140px;
+    right: -16px;
+}
+.container:hover .background-class > .text-class {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+   
+    
+}
+    
