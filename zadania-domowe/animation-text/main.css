@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.container {
+    width: 400px;
+    height: 250px;
+    margin-left:  auto;
+    margin-right: auto;
+    margin-top: 200px;
+    background-color: red;
+    position: relative;
+}
+h1 {
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.linear-wipe {
+    text-align: center;
+    position: absolute;
+    left: 75px;
+    top: 75px;
+    background: linear-gradient(to right, white 20%, red 40%, white 60%);
+    background-size: 200% auto;
+    background-clip: text;
+    color:  transparent;
+    -webkit-background-clip: text;
+    -webkit-color: transparent;
+    animation: shine 5s linear infinite;
+}
+@keyframes shine {
+    to {
+        background-position: 200% center;
+    }
+}
