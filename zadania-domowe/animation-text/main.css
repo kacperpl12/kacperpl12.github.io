@@ -35,7 +35,7 @@ h1 {
     animation: shine 5s linear infinite;
 }
 @keyframes shine {
-    to {
+    from  {
         background-position: 200% center;
     }
 }
