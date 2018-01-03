@@ -1,12 +1,15 @@
 @media all and (max-width: 992px) {
-   .img  {
-
-       
-
-    }
+  .img {
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 5%;
+  }
 }
-@media all and (max-width: 448px) {
-    .img {
-     
-    }
+
+@media all and (max-width: 480px) {
+  .img {
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 5%;
+  }
 }
