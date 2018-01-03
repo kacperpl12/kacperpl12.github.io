@@ -6,7 +6,7 @@ body {
     background-color: #98fb98;
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    overflow: scroll;
 }
 .img {
     width: 24%;
@@ -25,6 +25,7 @@ img {
    height: 100%;
    float: left;
    width: 100%;
+   
        
 }
 .mask-effect {
