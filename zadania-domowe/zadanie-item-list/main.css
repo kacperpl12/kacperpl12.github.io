@@ -6,15 +6,17 @@ body {
     background-color: #98fb98;
     width: 100vw;
     height: 100vh;
-    overflow: scroll;
+    overflow: hidden;
 }
 .img {
-    width: 300px;
-    height: 180px;
-    float: left;
-    margin-top: 250px;
-    margin-left: 30px;
+    width: 24%;
+    height: 32%;
+    display: inline-block;
     position: relative;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 0.6%;
+    
 }
 img {
    background-size: content;
@@ -30,6 +32,7 @@ img {
     position: absolute;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
+    margin-right: 5px;
 }
 a {
     position: absolute;

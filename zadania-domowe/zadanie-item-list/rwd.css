@@ -1,19 +1,13 @@
 @media all and (max-width: 992px) {
-    .container {
-        width: 100%; 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+   .img  {
+        width: 90%; 
+       
 
     }
 }
 @media all and (max-width: 448px) {
-    .container {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+    .img {
+        width: 150%;
+     
     }
 }
