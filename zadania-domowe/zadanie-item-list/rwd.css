@@ -1,17 +1,14 @@
 @media all and (max-width: 992px) {
   .images {
-    width: 30%;
-    margin-top: 10%;
-    margin-left: 5%;
+    width: 35%;
+    margin: 10px 5%;
    
 }
 }
 @media all and (max-width: 480px) {
   .images {
-    width: 70%;
-    margin-top: 10%;
-    margin-left: 5%;
-   
+    width: 80%;
+    margin: 10px 5%;
   }
    
 }

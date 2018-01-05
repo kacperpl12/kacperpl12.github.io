@@ -13,49 +13,51 @@ body {
 }
 .images {
     width: 24%;
-    height: 35%;
     display: inline-block;
     position: relative;
     text-align: center;
-    margin-left: 0.5%;
-    margin-top: 14%;
-    line-height: 0;
+    
    
 }
 .img1 {
-    background-image: url(img/product-1.jpg);
     width: 100%;
-    height: 100%;
+    height: 200px;
+    background-image: url(img/product-1.jpg);
+    object-fit: contain;
     background-size: cover;
     background-position: center;
+    margin: 10px 5%;
 }
 .img2 {
     background-image: url(img/product-2.jpg);
     width: 100%;
-    height: 100%;
+    height: 200px;
     background-size: cover;
     background-position: center;
+    margin: 10px 5%;
 }
 .img3 {
     background-image: url(img/product-3.jpg); 
     width: 100%;
-    height: 100%;
+    height: 200px;
     background-size: cover;
     background-position: center;
+    margin: 10px 5%;
 }
 .img4 {
     background-image: url(img/product-1.jpg); 
     width: 100%;
-    height: 100%;
+    height: 200px;
     background-size:cover;
     background-position: center;
+    margin: 10px 5%;
 }
 
 .mask-effect {
     background-color: rgba(250,118,56,0.7);
     width: 100%;
-    height: 100%;
-    top: 0px;
+    height: 200px;
+    top: 10px;
     position: absolute;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
