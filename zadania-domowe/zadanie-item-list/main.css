@@ -13,51 +13,38 @@ body {
 }
 .images {
     width: 24%;
-    display: inline-block;
+    float: left;
     position: relative;
     text-align: center;
-    
-   
+    margin: 10px 0.5%;
 }
-.img1 {
-    width: 100%;
-    height: 200px;
-    background-image: url(img/product-1.jpg);
-    object-fit: contain;
+.wspolna-klasa {
     background-size: cover;
     background-position: center;
-    margin: 10px 5%;
+    width: 100%;
+    height: 200px;
+}
+.img1 {
+    background-image: url(img/product-1.jpg);
+    
 }
 .img2 {
     background-image: url(img/product-2.jpg);
-    width: 100%;
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-    margin: 10px 5%;
+    
 }
 .img3 {
     background-image: url(img/product-3.jpg); 
-    width: 100%;
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-    margin: 10px 5%;
+   
 }
 .img4 {
-    background-image: url(img/product-1.jpg); 
-    width: 100%;
-    height: 200px;
-    background-size:cover;
-    background-position: center;
-    margin: 10px 5%;
+    background-image: url(img/product-4.jpg); 
 }
 
 .mask-effect {
     background-color: rgba(250,118,56,0.7);
     width: 100%;
     height: 200px;
-    top: 10px;
+    top: 0px;
     position: absolute;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
