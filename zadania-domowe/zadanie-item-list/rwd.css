@@ -1,15 +1,17 @@
 @media all and (max-width: 992px) {
-  .img {
-    width: 25%;
+  .images {
+    width: 30%;
     margin-top: 10%;
-    margin-left: 15%;
+    margin-left: 5%;
+   
 }
 }
 @media all and (max-width: 480px) {
-  .img {
-    width: 75%;
+  .images {
+    width: 70%;
     margin-top: 10%;
-    margin-left: 10%;
+    margin-left: 5%;
+   
   }
    
 }

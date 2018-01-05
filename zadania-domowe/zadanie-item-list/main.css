@@ -11,24 +11,46 @@ body {
     height: 100vh;
     overflow: scroll;
 }
-.img {
+.images {
     width: 24%;
-    height: 32%;
+    height: 35%;
     display: inline-block;
     position: relative;
     text-align: center;
-    margin-left: 0.6%;
-    margin-top: 15%;
-    
-}
-img {
-   max-width: 100%;
-   height: 100%;
-   float: left;
-   width: 100%;
+    margin-left: 0.5%;
+    margin-top: 14%;
+    line-height: 0;
    
-       
 }
+.img1 {
+    background-image: url(img/product-1.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.img2 {
+    background-image: url(img/product-2.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.img3 {
+    background-image: url(img/product-3.jpg); 
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.img4 {
+    background-image: url(img/product-1.jpg); 
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    background-position: center;
+}
+
 .mask-effect {
     background-color: rgba(250,118,56,0.7);
     width: 100%;
@@ -48,6 +70,6 @@ a {
     
     
 }
-.img:hover .mask-effect {
+.images:hover .mask-effect {
     opacity: 1;
 }
