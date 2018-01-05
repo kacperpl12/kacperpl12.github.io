@@ -9,6 +9,7 @@ body {
     background-color: #98fb98;
     width: 100vw;
     height: 100vh;
+    overflow: auto;
 }
 .images {
     width: 24%;
