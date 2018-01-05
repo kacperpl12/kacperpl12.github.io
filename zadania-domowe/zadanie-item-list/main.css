@@ -14,7 +14,6 @@ body {
 .images {
     width: 24%;
     float: left;
-    position: relative;
     text-align: center;
     margin: 10px 0.5%;
 }
@@ -24,6 +23,7 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     height: 200px;
+    position: relative;
 }
 .img1 {
     background-image: url(img/product-1.jpg);
