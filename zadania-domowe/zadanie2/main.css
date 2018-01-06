@@ -1,35 +1,52 @@
-body 
-{
-  margin: 0;
+* {
+    padding: 0;
+    margin: 5% auto;
+}
+
+.main {
+  width: 306px;
+}
+.main > div {
+  position: relative;
+  width: 100px;
+  height: 100px; 
+  float: left;
+  margin: 1px;
+}
+.main > div > div {
+  position: absolute;
+  top: 24px;
+  left: 24px;
   background-color: white;
-}
-
-
-#kwadrat-czerwony 
-{
-  position: relative; 
-  width: 100%;
-  background-color: red;
-  top: 0;
-}
-#kwadrat-czerwony > #kolo-rozowe 
-{
-  position:absolute; 
-  background-color: beige; 
-  left: 0;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
   border-radius: 50%;
-  border: 2px solid #000; 
-    
 }
-#kwadrat-niebieski 
-{
-  
-} 
-#kwadrat-czerwony > #kolo-szare 
-{
-  
+.main > .s1, .main > .s5 > div {
+  background-color: red;
 }
-#kwadrat-zolty 
-{
-  
+.main > .s2, .main > .s6 > div {
+  background-color: blue;
+}
+.main > .s3, .main > .s4 > div {
+  background-color: green;
+}
+.main > .s4, .main > .s8 > div {
+  background-color: yellow;
+}
+.main > .s5, .main > .s9 > div {
+  background-color: black;
+}
+.main > .s6, .main > .s7 > div {
+  background-color: orange;
+}
+.main > .s7, .main > .s3 > div {
+  background-color: purple;
+}
+.main > .s8, .main > .s2 > div {
+  background-color: gray;
+}
+.main > .s9, .main > .s1 > div {
+  background-color: pink;
 }
