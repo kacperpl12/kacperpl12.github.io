@@ -1,0 +1,14 @@
+{
+  "name": "sas",
+  "version": "1.0.0",
+  "description": "uczymy się SAS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kacper",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
